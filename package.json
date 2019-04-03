@@ -7,7 +7,8 @@
     "build": "ng build",
     "deploy": "gh-pages -d dist/ekoNPMPackageGenerator",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:lib": "ng-packagr -p ./projects/eko-rating-input/ng-package.json"
   },
   "private": true,
   "homepage": "https://valonhajredini.github.io/angularNPMLibGenerator/",
